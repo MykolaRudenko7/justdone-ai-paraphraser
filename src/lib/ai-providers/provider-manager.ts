@@ -1,6 +1,6 @@
-import { AIProvider, ParaphraseResult, ParaphraseResponse } from './types'
-import { OpenAIProvider } from './openai-provider'
-import { GeminiProvider } from './gemini-provider'
+import { AIProvider, ParaphraseResult, ParaphraseResponse } from 'lib/ai-providers/types'
+import { OpenAIProvider } from 'lib/ai-providers/openai-provider'
+import { GeminiProvider } from 'lib/ai-providers/gemini-provider'
 
 export class AIProviderManager {
   private providers: AIProvider[] = []

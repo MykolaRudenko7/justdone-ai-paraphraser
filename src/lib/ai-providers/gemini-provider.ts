@@ -1,5 +1,5 @@
 import { GoogleGenerativeAI, type GenerativeModel } from '@google/generative-ai'
-import { AIProvider, AIProviderConfig } from './types'
+import { AIProvider, AIProviderConfig } from 'lib/ai-providers/types'
 
 export class GeminiProvider implements AIProvider {
   private client: GoogleGenerativeAI
