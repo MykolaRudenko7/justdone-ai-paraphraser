@@ -1,5 +1,5 @@
 import OpenAI from 'openai'
-import { AIProvider, AIProviderConfig } from './types'
+import { AIProvider, AIProviderConfig } from 'lib/ai-providers/types'
 
 export class OpenAIProvider implements AIProvider {
   private client: OpenAI
