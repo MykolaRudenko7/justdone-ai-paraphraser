@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://justdone-ai-paraphraser.vercel.app/sitemap.xml
