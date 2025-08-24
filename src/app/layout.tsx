@@ -12,6 +12,14 @@ const inter = Inter({
   weight: ['400', '500', '600', '700'],
 })
 
+export const metadata: Metadata = {
+  title: 'AI Text Paraphraser - Transform Your Text with AI',
+  description:
+    'Advanced AI-powered text paraphrasing tool that preserves meaning while improving clarity and style. Powered by OpenAI and Google Gemini.',
+  keywords: 'AI paraphraser, text rewriting, AI writing tool, text transformation, OpenAI, Gemini',
+  robots: { index: true, follow: true },
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
