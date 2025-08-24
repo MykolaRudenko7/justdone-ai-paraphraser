@@ -110,7 +110,10 @@ export const TextForm = ({
             onClick={onPasteText}
             disabled={state === 'loading'}
             sx={(theme) => ({
-              width: '196px',
+              width: {
+                xs: '130px',
+                sm: '196px',
+              },
               height: '80px',
               gap: '8px',
               opacity: 1,
@@ -145,7 +148,10 @@ export const TextForm = ({
             onClick={onSampleText}
             disabled={state === 'loading'}
             sx={(theme) => ({
-              width: '196px',
+              width: {
+                xs: '130px',
+                sm: '196px',
+              },
               height: '80px',
               gap: '8px',
               opacity: 1,
